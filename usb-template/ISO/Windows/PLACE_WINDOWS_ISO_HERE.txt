@@ -1,0 +1,1 @@
+Place your own Windows ISO files in this folder. Do not commit or redistribute them.

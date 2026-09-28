@@ -1,0 +1,21 @@
+# User-supplied boot images and installers are never distributed here.
+*.iso
+*.img
+*.wim
+*.vhd
+*.vhdx
+*.esd
+*.efi
+*.exe
+*.zip
+*.7z
+*.pem
+*.key
+*.pfx
+.env*
+
+# Local working notes and test output
+AGENTS.md
+HANDOFF.md
+ServiceKit-Backup/
+ServiceKit-Manifest.json

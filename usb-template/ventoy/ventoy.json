@@ -1,0 +1,28 @@
+{
+  "auto_install": [
+    {
+      "parent": "/ISO/Windows",
+      "template": [
+        "/ventoy/profiles/windows/service-standard-kokr.xml",
+        "/ventoy/profiles/windows/service-custom.xml"
+      ],
+      "autosel": 0,
+      "timeout": 0
+    }
+  ],
+  "menu_alias": [
+    { "dir": "/ISO/Windows", "alias": "Windows installation" },
+    { "dir": "/ISO/Linux", "alias": "Linux images" },
+    { "dir": "/Diagnostics/Memory", "alias": "Memory diagnostics" }
+  ],
+  "menu_tip": {
+    "left": "10%",
+    "top": "81%",
+    "color": "blue",
+    "tips": [
+      { "dir": "/ISO/Windows", "tip": "Windows installation images; choose disk manually" },
+      { "dir": "/ISO/Linux", "tip": "Linux installation and live images" },
+      { "dir": "/Diagnostics/Memory", "tip": "Boot a memory test image" }
+    ]
+  }
+}
